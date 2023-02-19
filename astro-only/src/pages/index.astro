@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Local Fonts for CJK - Astro Only">
+	<main>
+		<h1>Lorem ipsum dolo</h1>
+		<img id="invert" src="/assets/english_font_miller.png"/>
+		<div class="seperator"/>
+		<h1>안녕하십니까! 한국어 폰트!</h1>
+		<img src="/assets/korean_font_hahmlet.png"/>
+		<div class="seperator"/>
+		<h1>こんにちは！ 日本語フォント！</h1>
+		<img  src="/assets/japanese_font_yujiboku.png"/>
+		<div class="seperator"/>
+		<h1>你好！ 中文字体！</h1>
+		<img src="/assets/chinese_font_notoserif.png"/>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1.5rem;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 500;
+		margin: 0;
+	}
+	img {
+		border: 2px solid white;
+		height: 4rem;
+	}
+	#invert {
+		filter: invert(1);
+		border: 2px solid black;
+		padding: 1rem;
+	}
+	.seperator {
+		border-top: 3px solid #bbb;
+		margin-top:  2rem;
+		margin-bottom:  2rem;
+	}
+</style>

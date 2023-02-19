@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Korean Serif Font 1; */
+@font-face {
+  font-family: 'Hahmlet';
+  src: url('/fonts/Hahmlet-Regular.ttf') format('truetype');
+}
+
+/* Korean Serif Font 2; */
+@font-face {
+  font-family: 'KimjungchulMyungjo';
+  /* font-weight: normal; */
+  /* src: url('/fonts/KimjungchulMyungjo-Regular.otf') format('otf'); */
+  src: url('/fonts/KimjungchulMyungjo-Regular.ttf') format('truetype');
+}
+
+/* Japanese Serif Font; */
+@font-face {
+  font-family: 'YujiBoku';
+  src: url('/fonts/YujiBoku-Regular.ttf') format('truetype');
+}
+
+/* Simplified Chinese Serif Font; */
+@font-face {
+  font-family: 'NotoSerifSC';
+  src: url('/fonts/NotoSerifSC-Regular.otf') format('otf');
+}
+
+/* 'English' Serif Font; */
+@font-face {
+  font-family: 'Miller Display';
+  src: url('/fonts/Miller-Display.otf') format('otf');
+}
