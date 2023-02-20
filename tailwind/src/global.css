@@ -12,8 +12,8 @@
 @font-face {
   font-family: 'KimjungchulMyungjo';
   /* font-weight: normal; */
-  /* src: url('/fonts/KimjungchulMyungjo-Regular.otf') format('otf'); */
-  src: url('/fonts/KimjungchulMyungjo-Regular.ttf') format('truetype');
+  src: url('/fonts/KimjungchulMyungjo-Regular.otf') format('otf');
+  /* src: url('/fonts/KimjungchulMyungjo-Regular.ttf') format('truetype'); */
 }
 
 /* Japanese Serif Font; */

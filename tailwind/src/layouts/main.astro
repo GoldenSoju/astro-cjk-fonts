@@ -1,4 +1,6 @@
 ---
+import '../global.css';
+
 const { content } = Astro.props;
 ---
 
@@ -9,7 +11,7 @@ const { content } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{content.title}</title>
 	</head>
-	<body>
+	<body class="font-serif">
 		<slot />
 	</body>
 </html>
